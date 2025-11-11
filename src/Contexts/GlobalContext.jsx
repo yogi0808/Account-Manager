@@ -77,7 +77,7 @@ const GlobalContextProvider = ({ children }) => {
       return alert("Password must be at least 3 characters")
     }
 
-    const id = allUsers.length + 1
+    const id = Date.now()
 
     setAllUsers((prev) => [...prev, user])
     localStorage.setItem(

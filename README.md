@@ -4,6 +4,8 @@
 
 This project is a React application that allows users to create and manage accounts. The application includes a login page, a registration page, and a page where users can view, edit and delete their account.
 
+[Live Demo](https://account-manager-khaki.vercel.app)
+
 ## Functionality
 
 - Login
